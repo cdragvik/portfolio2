@@ -1,16 +1,23 @@
-
 import React from "react";
 import "./../styles/Header.css";
 
 const Header = () => {
   return (
-    <header>
-      <h1 className="header-title">Christiane Dragvik</h1>
+    <header className="header-container">
+      <img src="src/styles/cdlogo.png" className="logo" alt="Logo" />
       <nav>
-        <a href="/">Home</a>
-        <a href="/projects">Projects</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <a href="/" className="nav-link">
+          Home
+        </a>
+        <a href="/projects" className="nav-link">
+          Projects
+        </a>
+        <a href="/about" className="nav-link">
+          About
+        </a>
+        <a href="/contact" className="nav-link">
+          Contact
+        </a>
       </nav>
     </header>
   );

@@ -1,11 +1,9 @@
-/* src/styles/Footer.css */
 .footer {
-    background-color: #f2f2f2;
-    color: #555;
+    background-color: #A2B29F; /* Soft pastel pink background */
     text-align: center;
-    padding: 10px;
+    padding: 15px; 
     bottom: 0;
-    left: 0;
     width: 100%;
-}
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on top for elegance */
+  }
   
